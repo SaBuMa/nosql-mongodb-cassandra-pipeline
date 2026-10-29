@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# MongoDB Database Tools downloaded by scripts/00_setup_tools.sh
+mongodb-database-tools-*/
+mongodb-database-tools-*.tgz
+
+# Local secrets
+.env
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
